@@ -1,6 +1,6 @@
 import { Network } from '@ionic-native/network';
-import { Observable } from 'rxjs/Observable';
-import { Observer } from 'rxjs/Observer';
+import { Observable } from 'rxjs';
+import { Observer } from 'rxjs';
 import 'rxjs/add/observable/merge';
 
 export class NetworkMock extends Network {
